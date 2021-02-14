@@ -2,22 +2,27 @@
     box-sizing: border-box;
 }
 
+body{
+    background-color: black;
+    color: white;
+}
+
 /*style the header*/
 header{
     text-align: center;
 }
 
 /*style of the navigation column*/
-.navBar {
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 25%;
     background-color: darkgrey;
+    float: left;
 }
 
-.navBar li a{
-    float: left;
+li a{
     display: block;
     color: black;
     padding: 8px 16px;
@@ -25,7 +30,7 @@ header{
 }
 
 /*change link color on hover*/
-.navBar li a:hover{
+li a:hover{
     background-color: black;
     color: white;
 }
@@ -36,9 +41,9 @@ float: left;
 width: 75%;
 }
 
-/**/
-.footer{
-    background-color: lightslategray;
-    text-align: center;
-    padding: 10px;
+.head{
+    border-style: solid;
+    border-color: black;
+    background-color: white;
+    color: black;
 }
