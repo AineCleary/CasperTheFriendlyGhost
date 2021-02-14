@@ -1,1 +1,46 @@
+*{
+    box-sizing: border-box;
+}
 
+/*style the header*/
+header{
+    text-align: center;
+}
+
+/*style of the navigation column*/
+.navBar {
+    overflow: hidden;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    background-color: darkgrey;
+    float: left;
+}
+
+.navBar li a{
+    float: left;
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+/*change link color on hover*/
+.navBar li a:hover{
+    background-color: black;
+    color: white;
+}
+
+/*style for main content*/
+.mainBody{
+float: left;
+width: 75%;
+}
+
+/**/
+.footer{
+    background-color: lightslategray;
+    text-align: center;
+    padding: 10px;
+}
