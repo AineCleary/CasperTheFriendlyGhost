@@ -13,16 +13,21 @@ header{
 }
 
 /*style of the navigation column*/
-ul {
+.navBar {
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 25%;
     background-color: darkgrey;
     float: left;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
 }
 
-li a{
+.navBar li a{
     display: block;
     color: black;
     padding: 8px 16px;
@@ -30,7 +35,7 @@ li a{
 }
 
 /*change link color on hover*/
-li a:hover{
+.navBar li a:hover{
     background-color: black;
     color: white;
 }
@@ -39,11 +44,24 @@ li a:hover{
 .mainBody{
 float: left;
 width: 75%;
+margin-left: 10px;
+margin-right: 10px;
+padding: 5px;
+border-style: double;
+border-color: white;
 }
 
 .head{
-    border-style: solid;
+    border-style: groove;
     border-color: black;
     background-color: white;
     color: black;
+}
+
+.pics{
+    border-style: groove;
+    border-color: gray;
+    margin: auto;
+    width: 33%;
+    float: left;
 }
