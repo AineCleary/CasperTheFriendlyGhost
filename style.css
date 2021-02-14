@@ -37,12 +37,10 @@ header{
 
 /*style for main content*/
 .mainBody{
-float: left;
-width: 75%;
 
-padding: 10px;
-border-style: double;
-border-color: white;
+padding: 15px;
+width: 75%;
+float: left;
 }
 
 .head{
@@ -56,6 +54,6 @@ border-color: white;
     border-style: groove;
     border-color: gray;
     margin: auto;
-    width: 33%;
-    float: left;
+    width: 25%
+    
 }
