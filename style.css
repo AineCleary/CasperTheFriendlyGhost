@@ -9,13 +9,11 @@ header{
 
 /*style of the navigation column*/
 .navBar {
-    overflow: hidden;
     list-style-type: none;
     margin: 0;
     padding: 0;
     width: 25%;
     background-color: darkgrey;
-    float: left;
 }
 
 .navBar li a{
